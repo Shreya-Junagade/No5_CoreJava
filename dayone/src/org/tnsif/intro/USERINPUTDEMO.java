@@ -8,7 +8,7 @@ public class USERINPUTDEMO {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	 
-		Scanner S= new Scanner(System.in); 
+		//Scanner S= new Scanner(System.in); 
 		
 		/*System.out.println("enter the num");
 			int num=S.nextInt();
@@ -17,9 +17,17 @@ public class USERINPUTDEMO {
 		System.out.println("the value of Floatnum is : "+num);
 		char c=S.next().charAt(0);
 		System.out.println("char is :"+c);*/
-		String str1=S.nextLine();	
+		/*String str1=S.nextLine();	
 		S.next();
-		System.out.println("string is: "+str1);
+		System.out.println("string is: "+str1);*/
+		 Scanner S= new Scanner(System.in);
+		    String userName;
+		    
+		    // Enter username and press Enter
+		    System.out.println("Enter username"); 
+		    userName = S.nextLine();   
+		       
+		    System.out.println("Username is: " + userName);
 				
 	
 
